@@ -24,6 +24,7 @@ exclude = [
 
 [lib]
 name = "sigma_engine"
+crate-type = ["rlib", "cdylib"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
@@ -31,6 +32,7 @@ serde_yaml = "0.9"
 serde_json = "1.0"
 anyhow = "1.0"
 thiserror = "1.0"
+libc = "0.2"
 
 # Core dependencies for performance
 

@@ -96,6 +96,9 @@ pub mod dag;
 // Streaming architecture for Kafka integration patterns
 pub mod streaming;
 
+// FFI (Foreign Function Interface) for Go integration
+pub mod ffi;
+
 #[cfg(feature = "profiling")]
 pub mod profiling;
 
